@@ -1,9 +1,12 @@
 body {
     background-color: #f2905b;
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Gelasio', serif;
+    font-family: 'Khula', sans-serif;
+    font-family: 'Lora', serif;
 }
 
-h1 {
+h1 {    
     font-family: 'Montserrat, sans-serif';
     font-size: 1.5rem;
     line-height: 1.5;
@@ -62,6 +65,7 @@ h1 {
     border-radius: 50%;
 }
 
+
 .top-container, .container-fluid {
     padding: 10px;
     background-color: #f2d5967d;
@@ -98,6 +102,15 @@ h1 {
 
 }
 
-#footer{
-    
+/*CTA Section*/
+
+
+@media (max-width: 1028px){
+.title-image {
+    position: static;
+}
+.navbar-brand{
+    font-size: 80%;
+}
+
 }
